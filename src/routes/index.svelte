@@ -38,7 +38,14 @@
 					target="_blank">zeldadungeon</a
 				> website
 			</p>
+			<p class="text-center">
+				You can use the Calculator to ease your recipie research, or read below for in depth
+				information on how the cooking system works!
+			</p>
 			<p class="text-center">Find this guide usefull? you can buy me a coffee! ☕</p>
+			<button class="btn btn-wide btn-primary">
+				<a href="/"> Recipie Calculator </a>
+			</button>
 		</div>
 	</div>
 </section>
@@ -320,6 +327,421 @@
 					/>
 				</svg>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flex min-h-screen p-10 items-center justify-center">
+		<div class="flex flex-col gap-5 p-10 md:p-20 bg-base-300 card shadow-md justify-center">
+			<h1 class="text-5xl font-bold uppercase">Duration Boost</h1>
+			<p class="text-justify">
+				For add-on ingredients (in my inventory it starts with Hylian Rice and ends with 'Dragon'
+				Claw) you get a time boost. Dragon parts are especially effective, scales are a generic 1:00
+				buff, but claws are 3:00 and horns set the duration to a whole 30:00. Important things to
+				note are:
+			</p>
+			<ul class="list-disc md:list-inside">
+				<li>
+					Sometimes time boosting ingredients provide less than the actual effect yielding
+					ingredients themselves.
+				</li>
+				<li>They <strong>DO NOT</strong> increase potency.</li>
+				<li>
+					They can only be used once in a recipe before losing their duration increase and acting as
+					only ingredients (IE: 1 Bird egg = 1:00 + 0:30, 2 Bird egg = 1:00 + 0:00 + 0:30 + 0:30)
+				</li>
+			</ul>
+			<div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+				<div class="card shadow-md p-3 bg-neutral">
+					<img
+						class="card"
+						src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/06/Breath-of-the-Wild-Cooking.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+			<p class="text-justify">
+				For more information, see the cyan section in the <a
+					class="link italic"
+					href="https://docs.google.com/spreadsheets/d/1PmZ_H8dAQnWS1rG8H-yWlfRVjBYjdx4Uj5WcD_bkJzA/edit#gid=1186507702"
+					target="_blank">spreadsheet</a
+				>.
+			</p>
+			<div class="flex flex-row items-center gap-2">
+				<a
+					class="text-justify link italic"
+					href="https://www.reddit.com/r/zelda/comments/61ccva/botw_cooking_math_complete/"
+					target="_blank">Source</a
+				>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-3 w-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flex min-h-screen p-10 items-center justify-center">
+		<div class="flex flex-col gap-5 p-10 md:p-20 bg-base-300 card shadow-md justify-center">
+			<h1 class="text-5xl font-bold uppercase">Critical Effect</h1>
+			<p class="text-justify">
+				Courtesy of <a
+					class="link italic"
+					href="https://www.reddit.com/u/ErsatzCats/"
+					target="_blank">/u/ErsatzCats</a
+				>
+			</p>
+			<p class="text-justify">
+				When you experience a crit while cooking, you'll hear a musical cue and one of 5 effects
+				will proc depending on if you dish supports it:
+			</p>
+			<ul class="list-disc md:list-inside">
+				<li>+3 Hearts Restored.</li>
+				<li>+5:00 Duration.</li>
+				<li>+1 Potency Tier (IE: Low -> Mid, Mid -> High).</li>
+				<li>+1 Extra Temporary Heart.</li>
+				<li>+2/5 extra green or yellow stamina.</li>
+			</ul>
+			<p class="text-justify">
+				If you want to circumnavigate the RNG aspect, you can add a Star Fragment or any dragon
+				parts. Additionally, cooking while a blood moon is in effect (11:35pm-11:55pm) will trigger
+				a crit automatically.
+			</p>
+			<div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+				<div class="card shadow-md p-3 bg-neutral">
+					<img
+						class="card"
+						src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/01/Zelda-BOTW-Critical-Success-Cooking.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+			<div class="flex flex-row items-center gap-2">
+				<a
+					class="text-justify link italic"
+					href="https://www.reddit.com/r/zelda/comments/61ccva/botw_cooking_math_complete/"
+					target="_blank">Source</a
+				>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-3 w-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flex min-h-screen p-10 items-center justify-center">
+		<div class="flex flex-col gap-5 p-10 md:p-20 bg-base-300 card shadow-md justify-center">
+			<h1 class="text-5xl font-bold uppercase">Monster Extract</h1>
+			<p class="text-justify">
+				Monster Extract follows the RNG of critical dishes, but randomly increases or decreases
+				health recovery, potency tier, and duration. HP is either set to 1/4, base value, or base
+				value+3. Duration is set to either 1:00, 10:00, or 30:00. Potency is moved one tier up or
+				down depending on the base potency. Exact tested values are marked in parentheses:
+			</p>
+
+			<div class="overflow-x-auto">
+				<table class="table w-full">
+					<!-- head -->
+					<thead>
+						<tr>
+							<th>Duration</th>
+							<th>1:00</th>
+							<th>10:00</th>
+							<th>30:00</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- row 1 -->
+						<tr>
+							<th />
+							<td>33% (32.29%)</td>
+							<td>33% (31.25%)</td>
+							<td>33% (36.46%)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="overflow-x-auto">
+				<table class="table w-full">
+					<!-- head -->
+					<thead>
+						<tr>
+							<th>Potency</th>
+							<th>-1 Tier Level</th>
+							<th>No Change</th>
+							<th>+1 Tier Level</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- row 1 -->
+						<tr>
+							<th>Low</th>
+							<td>0.00%</td>
+							<td>80% (78.57%)</td>
+							<td>20% (21.43%)</td>
+						</tr>
+						<tr>
+							<th>Mid</th>
+							<td>20% (20.93%)</td>
+							<td>60% (58.14%)</td>
+							<td>20% (20.93%)</td>
+						</tr>
+						<tr>
+							<th>High</th>
+							<td>40% (40.00%)</td>
+							<td>60% (60.00%)</td>
+							<td>0.00%</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="overflow-x-auto">
+				<table class="table w-full">
+					<!-- head -->
+					<thead>
+						<tr>
+							<th>Hp Restore</th>
+							<th>Set to 0.25</th>
+							<th>No Change</th>
+							<th>+3 Hearts</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- row 1 -->
+						<tr>
+							<th />
+							<td>25% (23.96%)</td>
+							<td>50% (47.92%)</td>
+							<td>25% (28.13%)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<p class="text-justify">
+				With these you can also get dishes that have 30:00 duration, +1 tier level, and +3 hearts or
+				1:00 duration, -1 tier level, and 1/4 hearts.
+			</p>
+
+			<div class="flex flex-row items-center gap-2">
+				<a
+					class="text-justify link italic"
+					href="https://www.reddit.com/r/zelda/comments/61ccva/botw_cooking_math_complete/"
+					target="_blank">Source</a
+				>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-3 w-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flex min-h-screen p-10 items-center justify-center">
+		<div class="flex flex-col gap-5 p-10 md:p-20 bg-base-300 card shadow-md justify-center">
+			<h1 class="text-5xl font-bold uppercase">Temporary Stats</h1>
+			<p class="text-justify">
+				For Hearty ingredients and Stamina boosting ingredients they follow a semi-basic set of
+				rules:
+			</p>
+
+			<ul class="list-disc md:list-inside">
+				<li>
+					All Enduras and Heartys fully restore stamina and health respectively. This operates
+					regardless of any other health restoring ingredients (IE: Apples/Raw Meat).
+				</li>
+				<li>
+					The total temporary hearts provided is the sum of the individual ingredients' effects.
+				</li>
+				<li>
+					Stamina is more chaotic, for restoration and enduras, you must add the points of each
+					ingredient and compare it to a table. IE: 4 points in stamina restoration grants you a
+					full wheel. 9 in endura gives 2 wheels. This specifically requires the spreadsheet to be
+					explained.
+				</li>
+			</ul>
+
+			<div class="flex flex-row items-center gap-2">
+				<a
+					class="text-justify link italic"
+					href="https://www.reddit.com/r/zelda/comments/61ccva/botw_cooking_math_complete/"
+					target="_blank">Source</a
+				>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-3 w-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flex min-h-screen p-10 items-center justify-center">
+		<div class="flex flex-col gap-5 p-10 md:p-20 bg-base-300 card shadow-md justify-center">
+			<h1 class="text-5xl font-bold uppercase">Elixir Specifics</h1>
+			<p class="text-justify">
+				Elixirs are no different from cooking apart from being far superior in duration and
+				producing a dubious dish (even if the other ingredients are correct) if you do not include a
+				reagent. Elixirs take precedent in a dish, but the label is purely aesthetic. Here's some
+				important things to note:
+			</p>
+
+			<ul class="list-disc md:list-inside">
+				<li>
+					To include an elixir ingredient, you must also include a reagent from a monster. This will
+					establish the dish as an elixir.
+				</li>
+				<li>
+					You can turn a normal dish into an elixir even using cooking ingredients like time boosts
+					and effect ingredients.
+				</li>
+			</ul>
+
+			<p class="text-justify">Reagents follow three tiers:</p>
+
+			<ul class="list-disc md:list-inside">
+				<li>Tier 1 - 0:40 (40sec)</li>
+				<li>Tier 2 - 1:20 (80sec)</li>
+				<li>Tier 3 - 2:40 (160sec)</li>
+			</ul>
+
+			<p class="text-justify">
+				Important to note is the mixture of cooking and elixirs can yield very powerful dishes. Take
+				for example Mighty Porgy + Mighty Porgy + Bladed Rhino Beetle + Bokoblin Guts + Bokoblin
+				Guts providing a high level 8:50 attack up buff.
+			</p>
+
+			<p class="text-justify">
+				Interestingly, monsters don't influence the duration enhancing effect of a reagent. Most
+				monsters have a Common, Uncommon, and Rare drop. For example, a Bokoblin's drops are horns,
+				fangs, and guts in order of common to rare. Lizalfos' are horns, talons, tails. The only
+				case where variants (IE: Icy Liz Tail) matter are with Chuchu jellies where regular jelly is
+				Tier 1, but colored jelly is Tier 2.
+			</p>
+
+			<p class="text-justify">
+				This tier system means using your Lynel hooves for elixirs you'll be using is pointless
+				since they're as good as Bokoblin fangs.
+			</p>
+
+			<div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+				<div class="card shadow-md p-3 bg-neutral">
+					<img
+						class="card"
+						src="https://cdn.vox-cdn.com/thumbor/HT9zrWQ4-3zZsQJoUIW4zownUks=/0x0:1280x720/1200x0/filters:focal(0x0:1280x720):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/8079175/2017030108175200_F1C11A22FAEE3B82F21B330E1B786A39.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<div class="flex flex-row items-center gap-2">
+				<a
+					class="text-justify link italic"
+					href="https://www.reddit.com/r/zelda/comments/61ccva/botw_cooking_math_complete/"
+					target="_blank">Source</a
+				>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-3 w-3"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flex min-h-screen p-10 items-center justify-center">
+		<div class="flex flex-col gap-5 p-10 md:p-20 bg-base-300 card shadow-md justify-center">
+			<h1 class="text-5xl font-bold uppercase">Conclusion - Implications</h1>
+			<p class="text-justify">
+				This is all of the information that I can gather about cooking and elixirs. I hope you find
+				this useful and have fun with it.!
+			</p>
+
+			<p class="text-justify">
+				Don't take all this too seriously. Yeah you can game the game as you can with every other
+				game, but the best way to enjoy Breath of the Wild is to enjoy it. Don't let some random guy
+				on the internet tell you not to use Acorns on food! Make whatever food appeals to you
+				because in the end, you really don't need to minmax your food. The game's difficult, but not
+				that difficult.
+			</p>
+
+			<div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+				<div class="card shadow-md p-3 bg-neutral">
+					<img
+						class="card"
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uXW6ootwNg9COTQIYP11wEGU5YLNzLIm-Q&usqp=CAU"
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<p class="text-justify">
+				Best Regards <a class="link italic" href="https://github.com/NexWonka" target="_blank"
+					>ON1FORCE!</a
+				> 💙
+			</p>
 		</div>
 	</div>
 </section>
