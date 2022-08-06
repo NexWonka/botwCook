@@ -1,4 +1,7 @@
 <script>
+	import { getCompendium } from './getCompendium';
+	import { writable } from 'svelte/store';
+
 	let btnToggle = true;
 	let btnToggle2 = false;
 
@@ -41,9 +44,12 @@
 			<div class="flex flex-row flex-wrap items-center justify-evenly md:gap-5">
 				<div class="dropdown">
 					<label tabindex="0" class="btn m-1">Click</label>
-					<ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-						<li><a>Item 1</a></li>
-						<li><a>Item 2</a></li>
+					<ul
+						tabindex="0"
+						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+						on:click={''}
+					>
+						<li><img src="" alt="" /></li>
 					</ul>
 				</div>
 

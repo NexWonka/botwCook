@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<meta charset="utf-8" />
-	<link rel="icon" href="/favicon.png" />
+	<link rel="icon" href="" />
 	<meta name="viewport" content="width=device-width" />
 	<title>Zelda BOTW Cooking Guide</title>
 </svelte:head>
@@ -43,9 +43,12 @@
 				information on how the cooking system works!
 			</p>
 			<p class="text-center">Find this guide usefull? you can buy me a coffee! ☕</p>
-			<button class="btn btn-wide btn-primary">
-				<a href="/calculator"> Recipie Calculator </a>
-			</button>
+			<a href="/calculator"> 
+				<button class="btn btn-wide btn-primary">
+					Recipie Calculator
+				</button>
+			</a>
+			
 		</div>
 	</div>
 </section>
