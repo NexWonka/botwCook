@@ -44,7 +44,7 @@
 			</p>
 			<p class="text-center">Find this guide usefull? you can buy me a coffee! ☕</p>
 			<button class="btn btn-wide btn-primary">
-				<a href="/"> Recipie Calculator </a>
+				<a href="/calculator"> Recipie Calculator </a>
 			</button>
 		</div>
 	</div>
